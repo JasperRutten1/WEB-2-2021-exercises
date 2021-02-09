@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="RuttenJasper_clientserver:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>RuttenJasper_clientserver</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="RuttenJasper_clientserver-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="RuttenJasper_clientserver:war exploded" />
+    </root>
+  </artifact>
+</component>
