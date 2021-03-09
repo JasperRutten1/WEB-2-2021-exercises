@@ -1,5 +1,6 @@
-
+<%@ page import="java.util.Random" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<!DOCTYPE html>
 <html lang="nl">
 <head>
     <meta charset="UTF-8">
@@ -15,7 +16,7 @@
     <nav>
         <ul>
             <li><a href="index.jsp">Home</a></li>
-            <li><a href="overzicht.jsp?">Overzicht</a></li>
+            <li><a href="overzicht.jsp">Overzicht</a></li>
             <li><a href="toevoegen.jsp">Toevoegen</a></li>
         </ul>
     </nav>

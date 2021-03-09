@@ -1,12 +1,12 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<!DOCTYPE html>
 <html lang="nl">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Overzicht Verfmagazijn</title>
-    <link rel="stylesheet" href="stijl.css">
+    <title>Overzicht Games</title>
+    <link rel="stylesheet" href="css/stijl.css">
 </head>
 
 <body>
@@ -15,7 +15,7 @@
     <nav>
         <ul>
             <li><a href="index.jsp">Home</a></li>
-            <li><a href="overzicht.jsp?">Overzicht</a></li>
+            <li><a href="overzicht.jsp">Overzicht</a></li>
             <li><a href="toevoegen.jsp">Toevoegen</a></li>
         </ul>
     </nav>

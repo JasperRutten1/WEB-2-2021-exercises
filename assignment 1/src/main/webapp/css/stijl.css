@@ -1,0 +1,97 @@
+body *{
+    margin: 0;
+    font-family: nudista-web, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+header h1{
+    display: block;
+    text-align: center;
+    margin: 1rem;
+    font-size: 2rem;
+}
+
+header nav ul{
+    height: 2rem;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 1rem;
+    padding: 0;
+}
+
+header nav ul li{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+header nav ul li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    text-align: center;
+    background: antiquewhite;
+    color: #000000;
+    font-size: 1.3rem;
+}
+
+main{
+    margin: 1rem 2rem;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    margin: 1rem auto;
+    table-layout: auto;
+}
+
+table,
+td,
+th {
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    border: solid 1px;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+form div.field{
+    height: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0.5rem;
+}
+
+form div.field label{
+    width: 30%;
+}
+form div.field input{
+    width: 70%;
+}
+
+form div.submit{
+    display: block;
+    margin: 0.5rem;
+}
+
+form div.submit input{
+    display: block;
+    height: 2rem;
+    width: 40%;
+    margin: 0 auto 0 30%;
+    padding: 0;
+}

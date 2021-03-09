@@ -1,12 +1,12 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<!DOCTYPE html>
 <html lang="nl">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>toevoegen verfmagazijn</title>
-    <link rel="stylesheet" href="stijl.css">
+    <title>Games toevoegen</title>
+    <link rel="stylesheet" href="css/stijl.css">
 </head>
 
 <body>
@@ -23,7 +23,7 @@
 
 <main>
     <h2>Game Toevoegen</h2>
-    <form>
+    <form id="add-form">
         <div class="field">
             <label for="name_input">Naam:</label>
             <input id="name_input" type="text" name="game_name">
@@ -40,8 +40,10 @@
             <label for="release_input">Release:</label>
             <input id="release_input" type="text" name="game_release">
         </div>
+        <div class="submit">
+            <input type="submit" value="Game Toevoegen">
+        </div>
 
-        <input type="submit" value="game_toevoegen">
     </form>
 </main>
 </body>
