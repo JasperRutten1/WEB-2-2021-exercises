@@ -1,4 +1,4 @@
-
+<%@ page import="domain.model.commandHandelers.Commands" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -10,7 +10,8 @@
         <input type="text" id="name" name="naam">
         <label for="firstName">voornaam:</label>
         <input type="text" id="firstName" name="voornaam">
-        <button type="submit">zoek</button>
+        <input type="hidden" name="command" value="<%=Commands.SearchStudent.getCommandName()%>">
+        <input type="submit" value="Zoek"/>
     </form>
 </body>
 </html>
