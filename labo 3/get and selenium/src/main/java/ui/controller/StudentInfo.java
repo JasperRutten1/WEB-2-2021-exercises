@@ -27,8 +27,6 @@ public class StudentInfo extends HttpServlet {
             RequestDispatcher view = request.getRequestDispatcher("nietGevonden.jsp");
             view.forward(request, response);
         }
-
-
     }
 
     @Override
